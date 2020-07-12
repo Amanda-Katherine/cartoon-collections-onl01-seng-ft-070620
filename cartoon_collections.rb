@@ -1,4 +1,5 @@
 array = ["Doc", "Dopey", "Bashful", "Grumpy"]
+
 def roll_call_dwarves(array)
   array.each_with_index do |name, number|
     puts "#{number+1} #{name}"
@@ -6,8 +7,14 @@ def roll_call_dwarves(array)
 end
 roll_call_dwarves(array)
 
-def summon_captain_planet(planeteer_calls)
 
+planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+
+
+def summon_captain_planet(planeteer_calls)
+  planeteer_calls.collect do |calls|
+    puts "#{calls.capitalize}!"
+  end #do
 end
 
 def long_planeteer_calls(call_length)
