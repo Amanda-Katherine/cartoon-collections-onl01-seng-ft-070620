@@ -1,3 +1,4 @@
+array = ["Doc", "Dopey", "Bashful", "Grumpy"]
 def roll_call_dwarves(array)
   array.each_with_index do |name, number|
     puts "#{number} #{name}"
