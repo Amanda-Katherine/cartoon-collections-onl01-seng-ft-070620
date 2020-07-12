@@ -5,7 +5,7 @@ def roll_call_dwarves(array)
     puts "#{number+1} #{name}"
   end #do
 end
-roll_call_dwarves(array)
+#roll_call_dwarves(array)
 
 
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
