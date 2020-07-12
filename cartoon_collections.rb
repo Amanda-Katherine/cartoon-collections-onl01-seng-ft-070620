@@ -16,6 +16,8 @@ def summon_captain_planet(planeteer_calls)
     puts "#{calls.capitalize}!"
   end #do
 end
+summon_captain_planet(planeteer_calls)
+
 
 def long_planeteer_calls(call_length)
 
