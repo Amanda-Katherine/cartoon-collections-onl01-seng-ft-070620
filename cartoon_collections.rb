@@ -12,9 +12,9 @@ planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 
 
 def summon_captain_planet(planeteer_calls)
-  new_array = []
+  #new_array = []
   planeteer_calls.collect do |calls|
-    new_array.capitalize << "#{calls}!"
+    "#{calls.capitalize}!"
   end #do
 
 end
