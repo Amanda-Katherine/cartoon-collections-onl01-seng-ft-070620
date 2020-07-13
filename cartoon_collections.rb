@@ -35,5 +35,5 @@ def find_the_cheese(find)
     #   end #if
     # end #do
 
-    find.detect {|food| food.include?(cheese_type)}
+    find.detect {|food| food.include?(cheese_types)}
 end
